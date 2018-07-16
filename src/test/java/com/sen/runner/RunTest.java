@@ -8,7 +8,7 @@ import cucumber.api.junit.Cucumber;
 @RunWith(Cucumber.class)
 @CucumberOptions(features = "G:\\SeleniumCucumberWorkSpace\\NewCucumberPracticeJuly\\src\\main\\java\\com\\sen\\features\\Login.feature",
          glue = {"com/sen/stepDefs"},
-         plugin={"com.cucumber.listener.ExtentCucumberFormatter:output/report.html","pretty","html:target/selenium-report.html","json:target/json-report.json","junit:target/junit-report.xml"},
+         plugin={"com.cucumber.listener.ExtentCucumberFormatter:output/report.html","pretty","html:target/myreport","json:target/json-report.json","junit:target/junit-report.xml"},
          strict =true,
          dryRun = false
          ,monochrome = true
